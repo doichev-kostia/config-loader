@@ -50,3 +50,8 @@ After that, we can read the stdout and parse the config.
 
 For the ESM modules, we can use a top-level await.
 
+## Files
+
+- `app-config.json5` - config file with non-sensitive information
+- `secrets.json5` - config file with sensitive information for the local development (SHOULD NOT BE COMMITTED IN THE REAL-WORLD APP)
+- `.env` - env variables (SHOULD NOT BE COMMITTED IN THE REAL-WORLD APP)
