@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "incremental": true,
+    "composite": true,
+    "lib": [
+      "es2023"
+    ],
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "node16",
+    "baseUrl": "./",
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "paths": {
+      "~/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "include": ["./src/**/*", "types"],
+  "exclude": ["node_modules", "dist", "build"]
+}

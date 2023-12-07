@@ -1,0 +1,21 @@
+{
+  "secrets": {
+    "manager": "gcp",
+    "name": "test",
+    "version": "1",
+  },
+  "logger": {
+    "level": "info"
+  },
+  "swagger": {
+    "enabled": true,
+  },
+  "services": {
+    "payment": {
+      "implementation": "mock",
+    },
+    "secrets": {
+      "implementation": "local",
+    },
+  }
+}

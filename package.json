@@ -1,0 +1,27 @@
+{
+  "name": "config-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "APP_CONFIG=app-config.json5 tsx ./src/main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "20",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@effect/schema": "^0.52.0",
+    "@google-cloud/secret-manager": "^5.0.1",
+    "dotenv": "^16.3.1",
+    "effect": "2.0.0-next.59",
+    "json5": "^2.2.3",
+    "stripe": "^14.7.0",
+    "ts-pattern": "^5.0.6"
+  }
+}
